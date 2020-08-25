@@ -3,10 +3,13 @@ int main()
 {
 	int a;
 	scanf_s("%d", &a);
-	if (a < 63)
+	if (a < 63) {
 		printf("Too less");
-	else if (a = 63)
+	}
+	else if (a == 63) {
 		printf("That's true!!");
-	else
+	}
+	else {
 		printf("Too more");
+	}
 }
